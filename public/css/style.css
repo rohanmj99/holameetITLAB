@@ -9,6 +9,18 @@
   font-family: "Open Sans", sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+  /* Example: Adjust sizes and spacing for smaller screens */
+  .container-room {
+      flex-direction: column;
+  }
+
+  .left-cont,
+  .right-cont {
+      width: 100%;
+  }
+}
+
 .mr-1 {
   margin-right: 10px;
 }
